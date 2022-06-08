@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="jc, Roj Chen, homepage of jc, Hanasaka" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="https://hnsk.one/" />
+    <link rel="icon" href="images/icon/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="192x192" href="images/icon/icon-192.png" />
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            color: #696969;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: #e7e7e7;
+        }
+
+        #background {
+            position: absolute;
+            left: 50vw;
+            top: -100vh;
+            width: 200vw;
+            height: 300vh;
+            background-image: url(images/bg.png);
+            background-size: 120px 120px;
+            transform-origin: left;
+            transform: rotate(45deg);
+            box-shadow: 0 0 4px 4px #757575;
+        }
+
+        #main-box {
+            width: auto;
+            height: auto;
+            margin: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #51E86F;
+        }
+
+        a:hover {
+            color: #FF5959;
+        }
+
+        summary {
+            padding-bottom: .5rem;
+        }
+
+        details[open]>summary {
+            border-bottom: 2px solid #51E86F;
+            margin-bottom: .5em;
+        }
+
+        header {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        header>img {
+            border-radius: 30px;
+            box-shadow: 0 1px 4px 4px #DBDBDB;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            margin: 1rem 0;
+        }
+
+        section {
+            border-radius: .5rem;
+            box-shadow: inset 0 0 1px 4px skyblue;
+            width: 20%;
+            height: 200px;
+        }
+
+        #h1 {
+            color: #6cf;
+            font-family: Fleur De Leah;
+            font-size: 2.5rem;
+            font-weight: 100;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+    </style>
+    <title>Hanasaka</title>
+</head>
+
+<body>
+    <div id="background"></div>
+    <div id="main-box">
+        <embed src="images/Hanasaka.svg" type="image/svg+xml" />
+        <header>
+            <img src="images/profile.jpg" alt="profile" width="60px" height="60px" />
+            <h2>Roj Chen &nbsp;[ jc ]</h2>
+        </header>
+        <main>
+            <p>This is a homepage of a junior <a href="javascript:;" id="roj-chen">jc</a>. </p>
+            <p>Welcome to visit my <a href="https://github.com/chyluob" target="_blank">GitHub</a>.</p>
+            <p>Friendly e-mail welcome at
+                <br />
+                <a href="mailto:mail@hnsk.one">mail@hnsk.one</a>.
+            </p>
+            <details>
+                <summary>hnsk.one</summary>
+                Hanasaka Yui, OneRoom
+            </details>
+        </main>
+    </div>
+</body>
+
+</html>
